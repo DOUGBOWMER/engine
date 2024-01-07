@@ -1,0 +1,36 @@
+# =====[ Required Configuration ]=====
+
+# Get your api secret key from the thirdweb dashboard - https://thirdweb.com/dashboard
+
+# The connection url for your running postgres instance, defaults to localhost postgres
+POSTGRES_CONNECTION_URL="postgresql://postgres:postgres@localhost:5432/postgres?sslmode=disable"
+# The admin wallet that will be able to connect to engine from the dashboard
+ADMIN_WALLET_ADDRESS="0xbd32627c76b6DB6B20B4C923D2362f733BD59786"
+
+# =====[ Optional Configuration ]=====
+
+# Optional configuration to override server host and port
+# PORT="3005"
+# HOST="0.0.0.0"
+
+# Optional configuration to enable cors, defaults to allow all
+# ACCESS_CONTROL_ALLOW_ORIGIN="*"
+
+# Optional configuration to enable https usage for localhost
+# ENABLE_HTTPS="false"
+# HTTPS_PASSPHRASE="..."
+# Find your Replicate API token at https://www.replicate.com/account
+REPLICATE_API_TOKEN=r8_7nXW7x5QKtZZ6Gjw6hScCX2xe6jjYQI3B34NY
+
+# Set this to any value if to run from a Replicate deployment instead of a public model
+# USE_REPLICATE_DEPLOYMENT=
+THIRDWEB_CLIENT_ID=8f36c9d43a62423e56ff4f0cd64367b9
+
+THIRDWEB_SECRET_KEY=Gcd-Fbc8QN2_OUptm1s8UrgqgnxOC5qRIadWXb5hmxZwAPmb0sWtOC4Ar5NG4xKRbq1tK8YQotbp3Vo0VuWhmw
+
+SERVICE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ewogICJyb2xlIjogInNlcnZpY2Vfcm9sZSIsCiAgImlzcyI6ICJzdXBhYmFzZSIsCiAgImlhdCI6IDE3MDMzMDc2MDAsCiAgImV4cCI6IDE4NjExNjA0MDAKfQ.RP7wmDSJlZ6dcUW8es7PnkgaVmHl35UCWHYZXVaQAQk
+ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ewogICJyb2xlIjogImFub24iLAogICJpc3MiOiAic3VwYWJhc2UiLAogICJpYXQiOiAxNzAzMzA3NjAwLAogICJleHAiOiAxODYxMTYwNDAwCn0.izGy9oM5DQQD1TnkD6VwZJRPZ0KbwCTyLU6gCPncm3o
+POSTGRES_PASSWORD= 12315546946Oscar!
+JWT_SECRET=0xbd32627c76b6DB6B20B4C923D2362f733BD59786
+SITE_URL=
+SMTP_SERVER=
